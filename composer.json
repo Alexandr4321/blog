@@ -1,0 +1,17 @@
+{
+    "name": "test/php-blog",
+    "description": "Simple blog on pure PHP + Smarty + MySQL",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "smarty/smarty": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
