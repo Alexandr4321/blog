@@ -1,0 +1,7 @@
+/vendor/
+/public/assets/css/style.css.map
+.env
+.idea/
+.vscode/
+*.log
+composer.lock
